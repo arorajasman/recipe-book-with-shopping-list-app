@@ -1,1 +1,79 @@
-<p>header works!</p>
+<!-- using the nav component to create a navbar for the app -->
+
+<!-- using the navbar and navbar-default bootstrap css class to style the nav component
+below -->
+<nav class="navbar navbar-default">
+    <!-- using the container-fluid bootstrap css class to create a fluid container -->
+    <div class="container-fluid">
+        <!-- using the navbar-header bootstrap css class to create the header of
+        the navbar -->
+        <div class="navbar-header">
+            <!-- using the a tag to create a brand route -->
+
+            <!-- using the navbar-brand bootstrap css class to create a brand anchor 
+            tag for the header -->
+            <a href="#" class="navbar-brand">Recipe Book</a>
+        </div>
+
+
+        <!-- the code below is used to create the list of items for the navbar -->
+
+        <!-- using the collapse and navbar-collapse bootstrap css class to create the
+        row containing the list of items in the navbar -->
+        <div class="collapse navbar-collapse">
+            <!-- using the ul tag to create a list of unordered items for the navbar -->
+            
+            <!-- using the nav and the navbar-nav bootstrap css class to style the ul
+            tag below -->
+            <ul class="nav navbar-nav">
+                <!-- using the li tag to create the list of items and the anchor tag 
+                to add a link to the item name -->
+                <li><a href="#"> Recipes </a></li>
+                <li><a href="#"> Shopping List </a></li>
+            </ul>
+
+            <!-- using the ul tag to create an unordered list of items -->
+
+            <!-- using the nav and the navbar-nav to style the ul tag below and using the
+            navbar-right bootstrap css class to align the ul tag to the right side of the screen -->
+            <ul class="nav navbar-nav navbar-right">
+                <!-- using the li tag to create the list of items -->
+
+                <!-- using the dropdown bootstrap css class to create a dropdown and also
+                to style the dropdown -->
+                <li class="dropdown">
+                    <!-- using the a tag to create a button for opening and closing the 
+                    drop-down -->
+
+                    <!-- using the dropdown-toggle class to create a toggle button to
+                    open and close the dropdown -->
+
+                    <!-- using the role property to make the role of the a tag below
+                    as like a button -->
+
+                    <!-- using the span tag and the caret bootstrap css class to show a downward arrow sign 
+                    to indicate that the tag below opens up a dropdown -->
+                    <a href="#" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+
+                    <!-- using the ul tag to create the dropdown menu -->
+
+                    <!-- using the dropdown-menu bootstrap css class to style the dropdown
+                    using bootstrap -->
+                    <ul class="dropdown-menu">
+                        <!-- using the li tag to create item list -->
+
+                        <!-- using the a tag to create a button to save data when clicked -->
+                        <li><a href="#">Save Data</a></li>
+
+                         <!-- using the a tag to create a button to fetch data when clicked -->
+                        <li><a href="#">Fetch Data</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+</nav>
